@@ -5,32 +5,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Home</title>
+    <title id="pageTitle">Portfolio | Home</title>
     <link rel="icon" href="images/title.png" type="image/icon type">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="header">
-        <a href="#" class="logo">Portfolio</a>
+    <header class="header-class">
+        <div class="logo">
+
+            <div class="letter">P</div>
+            <div class="letterdown">O</div>
+            <div class="letter">R</div>
+            <div class="letterdown">T</div>
+            <div class="letter">F</div>
+            <div class="letterdown">O</div>
+            <div class="letter">L</div>
+            <div class="letterdown">I</div>
+            <div class="letter">O</div>
+
+        </div>
         <i class='bx bx-menu' id="menu-icon"></i>
+
         <nav class="navbar">
             <a href="#home" class="active">HOME</a>
             <a href="#about">ABOUT</a>
             <a href="#services">SKILLS</a>
             <a href="#portfolio">PROJECT</a>
             <a href="#contact">CONTACT</a>
+            <div id="scroll-line"></div>
         </nav>
+        <div class="slider-container">
+            <label class="slider">
+                <input type="checkbox" checked onclick="toggleDarkMode()">
+                <div></div>
+            </label>
+        </div>
+
+
     </header>
+
+
+
     <section class="home" id="home">
         <div class="home-content">
             <h2>Hey! I'm</h2>
             <h1>Nikhil Nailwal</h1>
             <h2>I'm a <span class="multiple-text"></span></h2>
             <div class="social-media">
-                <a href="https://www.facebook.com/nikhil.nailwal.12" target="_blank"><i
-                        class='bx bxl-facebook-circle'></i></a>
+                <a href="https://github.com/nailwal08" target="_blank"><i class='bx bxl-github'></i></a>
                 <a href="https://www.instagram.com/nikhilnailwal.8" target="_blank"><i class='bx bxl-instagram'></i></a>
                 <a href="https://www.linkedin.com/in/nailwalnikhil/" target="_blank"><i
                         class='bx bxl-linkedin-square'></i></a>
@@ -194,7 +218,7 @@
     </section>
     <footer class="footer">
         <div class="footer-text">
-            <p>Made with <i class='bx bxs-heart'></i> by Nikhil Nailwal</p>
+            <p>Made with &#10084; by Nikhil Nailwal</p>
         </div>
         <div class="social-media">
             <a href="https://www.facebook.com/nikhil.nailwal.12" target="_blank"><i
